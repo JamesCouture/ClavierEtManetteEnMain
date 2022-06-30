@@ -9,12 +9,12 @@ const Home = () => {
     return (
         <div className="Home">
 
-            <div className="content" style={{ textAlign: 'center', display:'flex' }}>
+            <div className="content" style={{ textAlign: 'center'}}>
                 <h2>Bienvenue</h2>
             </div>
 
 
-            <div className="content">
+            <div className="content" style={{padding:'0px'}}>
                 <h3>Nouveautées</h3>
             </div>
 
