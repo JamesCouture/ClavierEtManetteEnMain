@@ -1,24 +1,48 @@
-import logo from './logo.svg';
-import './App.css';
+import Navbar from './Navbar';
+import Home from './Home';
+import Createaccountstep1 from './Createaccountstep1';
+import Createaccountstep2 from './Createaccountstep2';
+import Createaccountstep3 from './Createaccountstep3';
+import Accountcreatedmessage from './Accountcreatedmessage';
+import Connection from './Connection'
+import SilksongArticle from './SilksongArticle';
+import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 
 function App() {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <div className="App">
+        <Navbar/>
+        <div className="content">
+          <Switch>
+            <Route exact path="/">
+              <Home/>
+            </Route>
+            <Route path="/forum">
+            </Route>
+            <Route path="/creeruncompteetape=1">
+              <Createaccountstep1/>
+            </Route>
+            <Route path="/creeruncompteetape=2">
+              <Createaccountstep2/>
+            </Route>
+            <Route path="/creeruncompteetape=3">
+              <Createaccountstep3/>
+            </Route>
+            <Route path="/accountcree">
+              <Accountcreatedmessage/>
+            </Route>
+            <Route path="/connection">
+              <Connection/>
+            </Route>
+            <Route path="/silksong">
+              <SilksongArticle/>
+            </Route>
+          </Switch>
+        </div>
+      </div>
+    </Router>
   );
 }
 
