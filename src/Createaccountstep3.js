@@ -4,6 +4,10 @@ const Createaccountstep3 = () => {
     return (
         <div className="CreateAccount">
 
+            <div className="content" style={{ textAlign: 'center', paddingTop: "50px" }}>
+                <h1>Bienvenue à la page pour créer un compte</h1>
+            </div>
+
             <div className="content" style={{ textAlign: 'center' }}>
                 <h2>Étape 3</h2>
             </div>

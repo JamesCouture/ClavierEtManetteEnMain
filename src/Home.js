@@ -7,15 +7,19 @@ import { Link } from 'react-router-dom';
 
 const Home = () => {
     return (
-        <div className="Home">
+        <div className="Home" style={{ background: "white" }}>
 
-            <div className="content" style={{ textAlign: 'center'}}>
-                <h2>Bienvenue</h2>
+            <div className="content" style={{ textAlign: 'center', padding: "50px" }}>
+                <h1>Bienvenue à la page d'acceuil</h1>
+                <div style={{ paddingTop: "40px" }}>
+                    <p>Voici la page d'acceuil. Ici vous pouvez choisir des articles qui vous intéressent sur des nouveautées. Vous avez qu'à cliquer sur les titres d'articles.</p>
+                </div>
+
             </div>
 
 
-            <div className="content" style={{padding:'0px'}}>
-                <h3>Nouveautées</h3>
+            <div className="content" style={{ padding: '0px' }}>
+                <h1>Nouveautées</h1>
             </div>
 
             <div className="content">
@@ -24,7 +28,7 @@ const Home = () => {
                         <div className="imageCenter">
                             <img src={imgSilksong} alt="SilkSong" />
                         </div>
-                        <Link to="/silksong">Silksong sort bientôt avant le 23 juin 2023</Link>
+                        <Link to="/silksong" style={{ color: "#5896C7" }}>Silksong sort bientôt avant le 23 juin 2023</Link>
                     </div>
                     <div className="colR">
                         <div className="imageCenter">

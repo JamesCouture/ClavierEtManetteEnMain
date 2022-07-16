@@ -4,7 +4,6 @@
 * {
   margin: 0;
   font-family: "Quicksand";
-  /* color: #333; */
 }
 
 p {
@@ -17,7 +16,7 @@ p {
   align-items: center;
   max-width: 1600px;
   margin: 0 auto;
-  border-bottom: 1px solid #f2f2f2;
+  border-bottom: 2px solid #f2f2f2;
 }
 .navbar h1 {
   color: #5896C7;
@@ -38,6 +37,14 @@ p {
   margin: 40px auto;
   padding: 20px;
 }
+
+.paddingContent{
+  max-width: 1400px;
+  margin: 40px auto;
+  background-color: white;
+  min-height: 100%;
+}
+
 .rowC {
   display:flex;
   flex-direction:row;
@@ -66,6 +73,10 @@ p {
   height:20px;
   font-size:14pt;
   width: 300px;
+}
+
+.background {
+  Background-image:url('https://i.postimg.cc/rsybqnHv/Background.png');
 }
 
 .seperationRight {
@@ -98,4 +109,8 @@ p {
 
 .post {
   padding-bottom:10px;
+}
+
+.spacingTop {
+  padding-top:40px;
 }

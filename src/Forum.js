@@ -3,6 +3,11 @@ import Post from './Post'
 const Forum = () => {
     return (
         <div className="forum">
+
+            <div className="content" style={{ textAlign: 'center', padding: "50px" }}>
+                <h1>Bienvenue à la page de Forum</h1>
+            </div>
+
             <Post className="forumPost" title={"Problème de volant pour Formule 1 2022"}
                 authorText={"Jossef: J'ai essayer le jeu, et j'ai de la misère à ajuster mon volant. La sensitivité est trop haute pour pouvoir faire des virages avec précision."}
                 replyText={"Yanik: Il faut que tu rentre dans les settings, sous les options du 'manette'. Le jeu reconnait le volant comme un manette, et là tu auras l'option de changer la sensitivité de ton volant."}
@@ -32,7 +37,7 @@ const Forum = () => {
                         <input type="text" name="comment" style={{ height: '72px', fontSize: '22px', width: '700px' }} />
                     </label>
                 </form>
-                <div style={{ paddingRight: '50px', paddingTop:'20px', justifyContent:'right',display:'flex' }}>
+                <div style={{ paddingRight: '50px', paddingTop: '20px', justifyContent: 'right', display: 'flex' }}>
                     <button>
                         <p>Commenter</p>
                     </button>

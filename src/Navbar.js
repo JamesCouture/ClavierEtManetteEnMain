@@ -12,7 +12,8 @@ const Navbar = () => {
                 <Link to="/">Acceuil</Link>
                 <Link to="/forum">Forum</Link>
                 <Link to="/creeruncompteetape=1">Créer un compte</Link>
-                <Link to="/connection">Connection</Link>
+                <Link to="/connection">Se connecter</Link>
+                <Link to="/FAQ">FAQ</Link>
             </div>
         </nav>
     );

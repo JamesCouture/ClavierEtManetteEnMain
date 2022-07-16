@@ -4,8 +4,8 @@ const Connection = () => {
     return (
         <div className="Connection">
 
-            <div className="content" style={{ textAlign: 'center' }}>
-                <h2>Connection</h2>
+            <div className="content" style={{ textAlign: 'center',paddingTop:"50px" }}>
+                <h1>Se connecté</h1>
             </div>
 
             <div className="seperationLeft">

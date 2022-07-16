@@ -10,7 +10,7 @@ const SilksongArticle = () => {
                 <ReactPlayer url="https://youtu.be/JSfuFlhsxZY" controls='true' style={{ justifyContent: 'center' }} />
             </div>
 
-            <Description titleChild={'Silksong'} difficultyChild={'4/5 - difficile'} priceChild={'$24'} />
+            <Description titleChild={'Silksong'} difficultyChild={'4/5 - difficile'} tagChild={'Action,Aventure'} priceChild={'$24'} />
 
             <p>Malgré une conférence d’ouverture qui a divisé la communauté, le Summer Game Fest 2022 est loin d’être fini. Se tiendront cet après-midi les Guerrilla Collective et Wholesome Direct axés autour des jeux indépendants et AA, tandis que le Future Games Show pourrait réserver quelques belles annonces en termes de gameplay. Mais c’est surtout le Xbox + Bethesda Showcase qui est attendu au tournant et il devrait être porteur de bonne nouvelle pour ceux qui attendent impatiemment un certain metroidvania.
                 <br /><br />
