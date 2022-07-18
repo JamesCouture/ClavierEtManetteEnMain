@@ -18,27 +18,32 @@ p {
   margin: 0 auto;
   border-bottom: 2px solid #f2f2f2;
 }
+
 .navbar h1 {
   color: #5896C7;
 }
+
 .navbar .links {
   margin-left: auto;
 }
+
 .navbar a {
   margin-left: 16px;
   text-decoration: none;
   padding: 6px;
 }
+
 .navbar a:hover {
   color: #5896C7;
 }
+
 .content {
   max-width: 800px;
   margin: 40px auto;
   padding: 20px;
 }
 
-.paddingContent{
+.paddingContent {
   max-width: 1400px;
   margin: 40px auto;
   background-color: white;
@@ -46,48 +51,58 @@ p {
 }
 
 .rowC {
-  display:flex;
-  flex-direction:row;
+  display: flex;
+  flex-direction: row;
   justify-content: space-between;
 }
 
+button {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #447780;
+  border-radius: 5px;
+  background-color: #ebfcff;
+  height:35px;
+  font-size:25px;
+}
+
 .colR {
-  display:flex;
-  flex-direction:column;
-  text-align:center;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
   width: 400px;
 }
 
-.colR h3, h2, p {
-  padding-left:50px;
-  padding-right:50px;
+.colR h3,h2, p {
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 /* Section for all of the account related pages */
 
 .seperationLeft {
-  padding:10px;
+  padding: 10px;
 }
 
 .seperationLeft input {
-  height:20px;
-  font-size:14pt;
+  height: 20px;
+  font-size: 14pt;
   width: 300px;
 }
 
 .background {
-  Background-image:url('https://i.postimg.cc/rsybqnHv/Background.png');
+  Background-image: url('https://i.postimg.cc/rsybqnHv/Background.png');
 }
 
 .seperationRight {
-  padding:20px;
-  display:flex;
+  padding: 20px;
+  display: flex;
   justify-content: right;
 }
 
 .content img {
-  width:300px;
-  height:200;
+  width: 300px;
+  height: 200;
 }
 
 .imageCenter {
@@ -95,22 +110,26 @@ p {
 }
 
 .Home a {
-  color:black;
+  color: black;
   font-weight: bold;
 }
 
 .description {
-  padding-bottom:50px;
+  padding-bottom: 50px;
 }
 
 .forumContent {
-  padding:10px;
+  padding: 10px;
 }
 
 .post {
-  padding-bottom:10px;
+  padding-bottom: 10px;
 }
 
 .spacingTop {
-  padding-top:40px;
+  padding-top: 40px;
+}
+
+a {
+  color:black;
 }
