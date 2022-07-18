@@ -7,8 +7,10 @@ import Createaccountstep3 from './Createaccountstep3';
 import Accountcreatedmessage from './Accountcreatedmessage';
 import Connection from './Connection'
 import SilksongArticle from './SilksongArticle';
+import CreateAccountSteps from './CreateAccountSteps';
 import FAQ from './FAQ'
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+
 
 function App() {
 
@@ -25,6 +27,9 @@ function App() {
                 </Route>
                 <Route path="/forum">
                   <Forum />
+                </Route>
+                <Route path="/creeruncompteetape=1">
+                  <CreateAccountSteps />
                 </Route>
                 <Route path="/creeruncompteetape=1">
                   <Createaccountstep1 />
