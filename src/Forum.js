@@ -1,11 +1,14 @@
 import Post from './Post'
+import {useTranslation} from 'react-i18next'
 
 const Forum = () => {
+    const {t} = useTranslation();
+    
     return (
         <div className="forum">
 
             <div className="content" style={{ textAlign: 'center', padding: "50px" }}>
-                <h1>Bienvenue à la page de Forum</h1>
+                <h1>{t('ForumBienvenue')}</h1>
             </div>
 
             <Post className="forumPost" title={"Problème de volant pour Formule 1 2022"}
@@ -24,22 +27,22 @@ const Forum = () => {
             />
 
             <div className="addComment">
-                <h3>Ajouter un commentaire</h3>
+                <h3>{t('ForumAjouter')}</h3>
                 <form>
-                    <p>Titre</p>
+                    <p>{t('ForumTitre')}</p>
                     <label style={{ paddingLeft: '50px' }}>
                         <input type="text" name="title" style={{ height: '24px', fontSize: '22px', width: '700px' }} />
                     </label>
                 </form>
                 <form>
-                    <p>Commentaire</p>
+                    <p>{t('ForumCommentaire')}</p>
                     <label style={{ paddingLeft: '50px' }}>
                         <input type="text" name="comment" style={{ height: '72px', fontSize: '22px', width: '700px' }} />
                     </label>
                 </form>
                 <div style={{ paddingRight: '50px', paddingTop: '20px', justifyContent: 'right', display: 'flex' }}>
                     <button>
-                        <p>Commenter</p>
+                        <p>{t('ForumCommenter')}</p>
                     </button>
                 </div>
             </div>

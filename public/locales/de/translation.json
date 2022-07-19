@@ -1,0 +1,62 @@
+{
+    "//commentNavbar": "Home page is here________________________________________________________________________________________",
+    "NavHome": "Herzlich willkommen",
+    "NavForum": "Forum",
+    "NavAccountCreation": "Ein Konto erstellen",
+    "NavConnection": "Einloggen",
+    "NavFAQ": "FAQ",
+
+    "//commentSearch": "Search page is here________________________________________________________________________________________",
+    "SearchReserche": "Konversationssuche im Forum",
+    "SearchSerche": "Suchen",
+    "placeHolderSearch":"Forum durchsuchen",
+
+    "//commentHome": "Home page is here________________________________________________________________________________________",
+    "HomeBienvenue": "Willkommen auf der Homepage",
+    "HomeBienenueMessage": "Hier ist die Homepage. Hier können Sie Artikel auswählen, die Sie über Neuheiten interessieren. Klicken Sie einfach auf die Artikeltitel.",
+    "Nouveaute":"Nachrichten",
+    "HomeSilksong":"Silksong erscheint kurz vor dem 23. Juni 2023",
+    "HomeDoom":"Neuer Rekord im Ultra-Albtraum-Meisterlevel von Doom Eternal",
+    "HomeCuphead":"Cupheads neuer DLC erscheint am 30. Juni",
+    "HomeF1":"Das neue Formel-1-Spiel erscheint am 28. Juni",
+
+    "//commentForum": "Forum page is here________________________________________________________________________________________",
+    "ForumBienvenue": "Willkommen auf der Forumsseite",
+    "ForumAjouter": "Einen Kommentar hinzufügen",
+    "ForumTitre": "Titel",
+    "ForumCommentaire": "Kommentar",
+    "ForumCommenter": "Kommentar",
+
+    "//commentCreate": "Create page is here________________________________________________________________________________________",
+    "CreateFirst": "Vorname",
+    "CreateFirstEx": "Vorname (Bsp.: George)",
+    "CreateLast": "Nachname",
+    "CreateLastEx": "Nachname (Bsp.: Lafontaine)",
+    "CreatePassword":"Passwort",
+    "CreatePasswordEx":"Passwort (z. B. lkhjsdf4235432sd)",
+    "CreateRequired": "gefüllt werden müssen",
+    "CreateContinue": "Fortsetzen",
+    "CreatePrevious": "Vorherige",
+    "CreateSubmit": "Senden",
+    "CreateUsername": "Nutzername",
+    "CreateUsernameEx": "Benutzername (Bsp.: George123)",
+    "CreateCourriel": "Email",
+    "CreateCourrielEx": "E-Mail (Bsp.: George@gmail.com)",
+
+    "//commentLogin": "Login page is here________________________________________________________________________________________",
+    "LogFirst": "Vorname",
+
+    "//commentFAQ": "FAQ page is here________________________________________________________________________________________",
+    "FAQWelcome": "Hier ist die Seite mit den am häufigsten gestellten Fragen!",
+    "FAQMessage": "Wenn Sie Fragen haben, senden Sie uns eine E-Mail an CMM@gmail.com, damit wir spezifischere Fragen beantworten können, die unten nicht behandelt werden.",
+    "FAQQ1": "So greifen Sie auf Artikel zu",
+    "FAQR1": "Indem Sie auf die Homepage gehen und die Artikellinks unter den Bildern der mit den Artikeln verknüpften Spiele wiegen.",
+    "FAQQ2": "So erstellen Sie ein Konto",
+    "FAQR2": "Um ein Konto zu erstellen, gehen Sie auf die Registerkarte „Konto erstellen“. Folgen Sie danach einfach den Schritten, um Ihr CMM-Konto zu erstellen!",
+    "FAQQ3": "Brauchen wir ein Konto",
+    "FAQR3": "CMM erfordert kein Konto, um unsere Artikel anzuzeigen oder am Forum teilzunehmen. Die Option, ein Konto zu haben, besteht darin, der Welt ihre virtuelle Persönlichkeit zu geben.",
+
+
+
+    "FAQWelcome1": "Premier nom"
+}

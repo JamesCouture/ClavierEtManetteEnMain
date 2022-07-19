@@ -4,7 +4,7 @@ import { Card } from "react-bootstrap";
 const Final = ({ values }) => {
 
     //destructuring the object from values
-  const { firstName, lastName, username, email } = values;
+  const { firstName, lastName, username, password, email } = values;
   return (
     <>
       <Card style={{ marginTop: 100, textAlign: "left" }}>
@@ -17,6 +17,9 @@ const Final = ({ values }) => {
           </p>
           <p>
             <strong>Username :</strong> {username}{" "}
+          </p>
+          <p>
+            <strong>Password :</strong> {password}{" "}
           </p>
           <p>
             <strong>Email :</strong> {email}{" "}

@@ -1,9 +1,13 @@
 import React, { useState } from "react";
 import { Form, Card, Button } from "react-bootstrap";
 import validator from "validator";
+import { useTranslation } from 'react-i18next'
+
 
 // creating functional component ans getting props from app.js and destucturing them
 const StepOne = ({ nextStep, handleFormData, values }) => {
+  const { t } = useTranslation();
+
   //creating error state for validation
   const [error, setError] = useState(false);
 
@@ -28,43 +32,43 @@ const StepOne = ({ nextStep, handleFormData, values }) => {
         <Card.Body>
           <Form onSubmit={submitFormData}>
             <Form.Group className="mb-3">
-              <Form.Label>First Name</Form.Label>
+              <Form.Label>{t('CreateFirst')}</Form.Label>
               <Form.Control
                 style={{ border: error ? "2px solid red" : "" }}
                 name="firstName"
                 defaultValue={values.firstName}
                 type="text"
-                placeholder="First Name"
+                placeholder={t('CreateFirstEx')}
                 onChange={handleFormData("firstName")}
               />
               {error ? (
                 <Form.Text style={{ color: "red" }}>
-                  This is a required field
+                  {t('CreateRequired')}
                 </Form.Text>
               ) : (
                 ""
               )}
             </Form.Group>
             <Form.Group className="mb-3">
-              <Form.Label>Last Name</Form.Label>
+              <Form.Label>{t('CreateLast')}</Form.Label>
               <Form.Control
                 style={{ border: error ? "2px solid red" : "" }}
                 name="lastName"
                 defaultValue={values.lastName}
                 type="text"
-                placeholder="Last Name"
+                placeholder={t('CreateLastEx')}
                 onChange={handleFormData("lastName")}
               />
               {error ? (
                 <Form.Text style={{ color: "red" }}>
-                  This is a required field
+                  {t('CreateRequired')}
                 </Form.Text>
               ) : (
                 ""
               )}
             </Form.Group>
             <Button variant="primary" type="submit">
-              Continue
+              {t('CreateContinue')}
             </Button>
           </Form>
         </Card.Body>
