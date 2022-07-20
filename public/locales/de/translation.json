@@ -56,6 +56,39 @@
     "FAQQ3": "Brauchen wir ein Konto",
     "FAQR3": "CMM erfordert kein Konto, um unsere Artikel anzuzeigen oder am Forum teilzunehmen. Die Option, ein Konto zu haben, besteht darin, der Welt ihre virtuelle Persönlichkeit zu geben.",
 
+    "DescriptionTitre":"Titel: ",
+    "DescriptionDifficulty":"Schwierigkeit: ",
+    "DescriptionTag":"Stichworte:",
+    "DescriptionPrice":"Schätzpreis: ",
+
+    "SilksongDifficulty":"4/5 - schwierig",
+    "Silksongtag":"Aktion, Abenteuer",
+    "SilksongPrice":"$24",
+    "SilksongP1":"Trotz einer Eröffnungskonferenz, die die Community spaltete, ist das Summer Game Fest 2022 noch lange nicht vorbei. Guerilla Collective und Wholesome Direct werden heute Nachmittag stattfinden und sich auf Independent- und AA-Spiele konzentrieren, während die Future Games Show einige großartige Ankündigungen in Bezug auf das Gameplay enthalten könnte. Aber es ist vor allem der Xbox+ Bethesda Showcase, der an der Wende erwartet wird und der sollte gute Nachrichten für diejenigen bringen, die ungeduldig auf ein gewisses Metroidvania warten.",
+    "SilksongP2":"Laut Insider „The Snitch“ wird Hollow Knight Silksong am ersten Tag im Xbox Game Pass verfügbar sein. In diesem Stadium können wir die Bedingung fast entfernen, da die betreffende Quelle den gesamten Stand der Dinge und das Veröffentlichungsdatum von The Last of Us Remake durchgesickert ist. Es könnte also sein, dass während der Xbox-Konferenz wieder über die Fortsetzung von Hollow Knight gesprochen wird, hoffentlich auch mit neuen Bildern und einem Veröffentlichungsdatum.",
+    "SilksongP3":"Haftungsausschluss: Diese Absätze wurden der folgenden Website 'https://www.gameblog.fr/jeu-video/ed/news/hollow-knight-silksong-prepare-une-enorme-surprise-sur-xbox-402444' entnommen. verwendet, um die Website zu demonstrieren.",
+
+    "DoomDifficulty":"3-4/5 - mittelschwer",
+    "Doomtag":"Aktion, Abenteuer",
+    "DoomPrice":"$53.39",
+    "DoomP1":"Wir können – und wir tun es täglich in den Spalten der Pixel-Sektion – ein Videospiel verteidigen, das subtil, fein, intellektuell, sensibel, anders ist. Und dann stürzt von Zeit zu Zeit eine neue Episode von Doom herunter, eine Hand fest auf dem Kolben seiner Schrotflinte, die andere fest im Gesicht einer dämonischen Kreatur. Dies ist am Freitag, den 20. März mit Doom Eternal der Fall, das auf PC, Switch, PS4 und Xbox One veröffentlicht wird.",
+    "DoomP2":"Dies ist die fünfte Folge von Doom in achtundzwanzig Jahren: Der Anlass ist zu selten, um ihn nicht zu feiern. Das erste erfand 1993 einen Weg, den Spieler in den Mittelpunkt der Action eines Videospiels zu stellen. In der Haut eines Weltraum-Supersoldaten wehrten wir mit schweren Kaliberschlägen eine höllische Invasion auf einem Marsmond ab. Zum ersten Mal sahen wir die Aktion durch die Augen seines Avatars, die Waffe auf Armeslänge ausgestreckt und feindlichen Projektilen ausweichend, als wären wir dort.",
+    "DoomP3":"Nach dieser ersten großen Iteration wurde die Serie, die ein Genre erfunden hat (wir haben lange von „doom-like“ gesprochen, bevor sich „Shooter“ oder „FPS“ durchgesetzt hat), Jahr für Jahr fortgesetzt. Zwei lange Pausen, zuerst zwischen 1997 und 2004, dann noch einmal zwischen 2005 und 2016, werden die Entwickler gezwungen haben, ihr Exemplar zweimal zu überprüfen. Aber wenn sich Doom verändert hat, bleiben die Empfindungen, die es heute bietet, dieselben.",
+    "DoomP4":"Haftungsausschluss: Diese Absätze wurden von der folgenden Website 'https://www.lemonde.fr/pixels/article/2020/03/20/doom-eternal-le-jeu-de-tir-qu-il-nous-needed -to-solve-the-problemes-with-the-flammes_6033835_4408996.html', die zur Demonstration der Website verwendet wird.",
+
+    "CupheadDifficulty":"3-4/5 - mittelschwer",
+    "Cupheadtag":"Abenteuer,Indie,Platformer",
+    "CupheadPrice":"$9.99",
+    "CupheadP1":"Für dieses neue Abenteuer mit dem Titel The Delicious Last Course begrüßen Cuphead und Mugman einen neuen Protagonisten. Tatsächlich hat Ms Chalice, der Geist, der unseren Helden im ersten Spiel half, einen Weg gefunden, sich in einen spielbaren Charakter zu inkarnieren. Letzteres hat Gameplay-Besonderheiten. Sie beginnt jeden Kampf mit einem HP mehr und kann unter feindlichen Angriffen rollen. Zusätzlich ist Ms Chalice mit einem Doppelsprung bewaffnet und pariert automatisch, wenn sie sprintet. Daher mag die Verwendung des letzteren einfacher erscheinen, aber es wird keinen der Reize des Spiels nutzen können.",
+    "CupheadP2":"Für diesen DLC The Delicious Last Course bricht das neue Cup-Team zu einer neuen Insel auf. Diese Insel ist nach Abschluss des ersten Levels des Spiels zugänglich und bietet neue Herausforderungen. Mit fünf neuen Bossen, mehreren neuen Waffen, Herausforderungen und einigen Überraschungen endet dieser DLC relativ schnell (je nach Geschick zwischen zwei und fünf Stunden), beeindruckt aber durch seine Qualität.",
+    "CupheadP3":"Haftungsausschluss: Diese Absätze stammen von der folgenden Website 'https://jeu.video/action/cuphead/the-delicious-last-course-delice-dernier-plat', die zur Demonstration der Website verwendet wird.",
+
+    "F12022Difficulty":"3-4/5 - mittelschwer",
+    "F12022tag":"Rennen, Sport, Multiplayer",
+    "F12022Price":"$79.99",
+    "F12022P1":"Bei F1 2022 können wir nicht sagen, dass Codemasters an neuen Funktionen gespart hat, vielleicht unter dem Anstoß seines neuen Chefs Electronic Arts? Wie auch immer, die Software wird mit neuen Fahrzeugen angereichert, in diesem Fall GTs, die in speziellen Herausforderungen gefahren werden können; aber niemals in echten Multiplayer-Rennen. Neben diesen Autos sind auch die offiziellen Safety Cars (Aston Martin und Mercedes) auf dem Programm und spielbar. Lassen Sie uns also gleich die Spannung abbauen, denn wenn diese Ergänzungen es ermöglichen, die Lebensdauer der Software zu verlängern (die Herausforderungen sind manchmal interessant, aber nicht immer), stellt sich das Fahren dieser GTs schnell als langweilig heraus. Weil nicht sehr scharf (ganz typisch Arcade) und ohne viel Flair. Auch die leise wirkenden Motorengeräusche reichen nicht aus, um zu fesseln. Es bleibt jedoch das Vergnügen, sie in seiner Garage zu sammeln ...",
+    "F12022P2":"Womit wir beim zweiten großen neuen Feature von F1 2022 wären, dem „F1 Life“-Modus. Hier überwiegt der 'Mode'-Geist, da Sie die Möglichkeit haben, eine kleine Wohnung (Showroom) durch die Auswahl von Gemälden, Möbeln, Dekoration usw. zu gestalten. Aber auch, um Markenkleidung zu erwerben und Wiederholungen zu überprüfen oder verschiedene Informationen über F1 einzusehen. Leider hält sich das Interesse an letzterem sehr in Grenzen, so dass man am Reiz des Neuen vorbei schnell die Lust daran verliert...",
+    "F12022P3":"Haftungsausschluss: Diese Abschnitte wurden der folgenden Website entnommen: https://lemagsportauto.ouest-france.fr/jeux-video-test-de-f1-2022-le-plein-de-nouveautes-mais-la-panne-seche -de-plaisir/69572/', die zur Demonstration der Website verwendet wird.",
 
 
     "FAQWelcome1": "Premier nom"

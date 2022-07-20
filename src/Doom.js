@@ -2,37 +2,44 @@ import ReactPlayer from "react-player"
 import Description from "./Description";
 import { useTranslation } from 'react-i18next'
 
-const SilksongArticle = () => {
+const Doom = () => {
     const { t } = useTranslation();
 
     return (
         <div className="silksongarticle">
 
             <div className="content" style={{ justifyContent: 'center', display: "flex" }}>
-                <ReactPlayer url="https://youtu.be/JSfuFlhsxZY" controls='true' style={{ justifyContent: 'center' }} />
+                <ReactPlayer url="https://www.youtube.com/watch?v=_J2YcaVqjCQ&ab_channel=BethesdaSoftworksUK" controls='true' style={{ justifyContent: 'center' }} />
             </div>
 
-            <Description titleChild={'Silksong'} difficultyChild={t('SilksongDifficulty')} tagChild={t('Silksongtag')} priceChild={t('SilksongPrice')} />
+            <Description titleChild={'Doom Eternal'} difficultyChild={t('DoomDifficulty')} tagChild={t('Doomtag')} priceChild={t('DoomPrice')} />
 
             <div className="spacingTop">
                 <p>
-                    {t('SilksongP1')}
+                    {t('DoomP1')}
                 </p>
             </div>
 
             <div className="spacingTop">
                 <p>
-                    {t('SilksongP2')}
+                    {t('DoomP2')}
+                </p>
+            </div>
+
+            <div className="spacingTop">
+                <p>
+                    {t('DoomP3')}
                 </p>
             </div>
 
             <div className="spacingTop">
                 <h4>
-                    {t('SilksongP3')}
+                    {t('DoomP4')}
                 </h4>
             </div>
+
         </div>
     );
 }
 
-export default SilksongArticle;
+export default Doom;

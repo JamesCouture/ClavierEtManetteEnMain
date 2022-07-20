@@ -1,4 +1,8 @@
+import { useTranslation } from 'react-i18next'
+
 const Description = (props) => {
+
+    const { t } = useTranslation();
 
     const tags = props.tagChild.split(",");
     const tagList = tags.map(function (tag, index) {
@@ -6,14 +10,14 @@ const Description = (props) => {
     })
     return (
         <div className="description">
-            <h2>Titre: {props.titleChild}</h2>
-            <h2>Difficulté: {props.difficultyChild}</h2>
+            <h2>{t('DescriptionTitre')}{props.titleChild}</h2>
+            <h2>{t('DescriptionDifficulty')}{props.difficultyChild}</h2>
             <div style={{display:"flex",flexWrap:"wrap"}}>
-                <h2>Tags:</h2>
+                <h2>{t('DescriptionTag')}</h2>
                 {tagList}
             </div>
 
-            <h2>Prix estimé: {props.priceChild}</h2>
+            <h2>{t('DescriptionPrice')}{props.priceChild}</h2>
         </div>
     );
 }

@@ -59,13 +59,13 @@ const Forum = () => {
                 <form>
                     <p>{t('ForumTitre')}</p>
                     <label style={{ paddingLeft: '50px' }}>
-                        <input type="text" name="title" id="title" defaultValue='d' style={{ height: '24px', fontSize: '22px', width: '700px' }} />
+                        <input type="text" name="title" id="title" style={{ height: '24px', fontSize: '22px', width: '700px' }} />
                     </label>
                 </form>
                 <form>
                     <p>{t('ForumCommentaire')}</p>
                     <label style={{ paddingLeft: '50px' }}>
-                        <textarea type="text" name="comment" id="commentaire" defaultValue='d' style={{ height: '72px', fontSize: '22px', width: '700px' }} />
+                        <textarea type="text" name="comment" id="commentaire" style={{ height: '72px', fontSize: '22px', width: '700px' }} />
                     </label>
                 </form>
                 <div style={{ paddingRight: '50px', paddingTop: '20px', justifyContent: 'right', display: 'flex' }}>

@@ -7,6 +7,9 @@ import Createaccountstep3 from './Createaccountstep3';
 import Accountcreatedmessage from './Accountcreatedmessage';
 import Connection from './Connection'
 import SilksongArticle from './SilksongArticle';
+import Doom from './Doom';
+import Cuphead from './Cuphead';
+import F12022 from './F12022'
 import CreateAccountSteps from './CreateAccountSteps';
 import FAQ from './FAQ'
 import './i18n'
@@ -55,6 +58,15 @@ function App() {
                     </Route>
                     <Route path="/silksong">
                       <SilksongArticle />
+                    </Route>
+                    <Route path="/doom">
+                      <Doom />
+                    </Route>
+                    <Route path="/cuphead">
+                      <Cuphead />
+                    </Route>
+                    <Route path="/F12022">
+                      <F12022 />
                     </Route>
                     <Route path="/FAQ">
                       <FAQ />

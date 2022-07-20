@@ -2,37 +2,38 @@ import ReactPlayer from "react-player"
 import Description from "./Description";
 import { useTranslation } from 'react-i18next'
 
-const SilksongArticle = () => {
+const F12022 = () => {
     const { t } = useTranslation();
 
     return (
         <div className="silksongarticle">
 
             <div className="content" style={{ justifyContent: 'center', display: "flex" }}>
-                <ReactPlayer url="https://youtu.be/JSfuFlhsxZY" controls='true' style={{ justifyContent: 'center' }} />
+                <ReactPlayer url="https://www.youtube.com/watch?v=Nx9NgXi8nP8&ab_channel=F1%C2%AEGamesFromCodemasters" controls='true' style={{ justifyContent: 'center' }} />
             </div>
 
-            <Description titleChild={'Silksong'} difficultyChild={t('SilksongDifficulty')} tagChild={t('Silksongtag')} priceChild={t('SilksongPrice')} />
+            <Description titleChild={'F1 2022'} difficultyChild={t('F12022Difficulty')} tagChild={t('F12022tag')} priceChild={t('F12022Price')} />
 
             <div className="spacingTop">
                 <p>
-                    {t('SilksongP1')}
+                    {t('F12022P1')}
                 </p>
             </div>
 
             <div className="spacingTop">
                 <p>
-                    {t('SilksongP2')}
+                    {t('F12022P2')}
                 </p>
             </div>
 
             <div className="spacingTop">
                 <h4>
-                    {t('SilksongP3')}
+                    {t('F12022P3')}
                 </h4>
             </div>
+
         </div>
     );
 }
 
-export default SilksongArticle;
+export default F12022;

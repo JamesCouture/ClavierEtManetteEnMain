@@ -52,7 +52,39 @@
     "FAQQ3": "Avons-nous besoin d'un compte",
     "FAQR3": "CMM ne requiert pas de compte pour visionner nos articles ou participer au forum. L'option d'avoir un compte est pour laisser le monde avoir leurs personallité vcituel.",
 
+    "DescriptionTitre":"Titre: ",
+    "DescriptionDifficulty":"Difficulté: ",
+    "DescriptionTag":"Tags:",
+    "DescriptionPrice":"Prix estimé: ",
 
+    "SilksongDifficulty":"4/5 - difficile",
+    "Silksongtag":"Action,Aventure",
+    "SilksongPrice":"$24",
+    "SilksongP1":"Malgré une conférence d’ouverture qui a divisé la communauté, le Summer Game Fest 2022 est loin d’être fini. Se tiendront cet après-midi les Guerrilla Collective et Wholesome Direct axés autour des jeux indépendants et AA, tandis que le Future Games Show pourrait réserver quelques belles annonces en termes de gameplay. Mais c’est surtout le Xbox + Bethesda Showcase qui est attendu au tournant et il devrait être porteur de bonne nouvelle pour ceux qui attendent impatiemment un certain metroidvania.",
+    "SilksongP2":"Selon l’insider « The Snitch », Hollow Knight Silksong sera disponible Day One sur le Xbox Game Pass. A ce stade on peut presque enlever le conditionnel puisque la source en question a leaké l’intégralité du State of Play et la date de sortie de The Last of Us Remake. Il se pourrait donc que la suite d’Hollow Knight refasse parler d’elle pendant la conférence Xbox, espérons-le avec de nouvelles images et une date de sortie également.",
+    "SilksongP3":"Disclaimer: Ces paragraphes ont été pris du site web suivant 'https://www.gameblog.fr/jeu-video/ed/news/hollow-knight-silksong-prepare-une-enorme-surprise-sur-xbox-402444', utilisé pour démontrer le site web.",
+
+    "DoomDifficulty":"3-4/5 - moyen-difficile",
+    "Doomtag":"Action,Aventure",
+    "DoomPrice":"$53.39",
+    "DoomP1":"On peut défendre – et on le fait quotidiennement dans les colonnes de la rubrique Pixels – un jeu vidéo subtil, fin, cérébral, sensible, différent. Et puis de temps en temps, un nouvel épisode de Doom déboule, une main serrée sur la crosse de son fusil à pompe, l’autre solidement plantée dans la tronche d’une créature démoniaque. C’est le cas, vendredi 20 mars, avec Doom Eternal, sorti sur PC, Switch, PS4 et Xbox One.",
+    "DoomP2":"Il s’agit du cinquième épisode de Doom en vingt-huit ans : l’occasion est trop rare pour ne pas être célébrée. Le premier, en 1993, inventait une façon de mettre le joueur au cœur de l’action dans un jeu vidéo. Dans la peau d’un supersoldat de l’espace, on repoussait à coups de gros calibres une invasion infernale sur une lune de Mars. Pour la première fois, on voyait l’action à travers les yeux de son avatar, le flingue tendu à bout de bras, en évitant les projectiles ennemis comme si on y était.",
+    "DoomP3":"Après cette première itération géniale, la série, qui a inventé un genre (on a longtemps parlé de « doom-like » avant que « jeu de tir » ou « FPS » ne s’impose), a continué bon an mal an. Deux longues pauses, entre 1997 et 2004 d’abord, puis à nouveau entre 2005 et 2016, auront forcé les développeurs à revoir à deux reprises leur copie. Mais si Doom a changé, les sensations qu’il procure aujourd’hui restent identiques.",
+    "DoomP4":"Disclaimer: Ces paragraphes ont été pris du site web suivant 'https://www.lemonde.fr/pixels/article/2020/03/20/doom-eternal-le-jeu-de-tir-qu-il-nous-fallait-pour-resoudre-les-problemes-au-lance-flammes_6033835_4408996.html', utilisé pour démontrer le site web.",
+
+    "CupheadDifficulty":"3-4/5 - moyen-difficile",
+    "Cupheadtag":"Aventure,Jeu indépendant,Plate-forme",
+    "CupheadPrice":"$9.99",
+    "CupheadP1":"Pour cette nouvelle aventure, intitulée The Delicious Last Course, Cuphead et Mugman accueillent un nouveau protagoniste. En effet, Ms Chalice, l’esprit aidant nos héros dans le premier jeu, a trouvé le moyen de s’incarner en un personnage jouable. Cette dernière a des particularités de gameplay. Elle commence chaque combat avec un HP de plus et peut faire des roulades sous les attaques ennemies. De plus, Ms Chalice est armée d’un double saut et effectue le parry automatiquement lorsqu’elle dashe. Ainsi, l’utilisation de cette dernière peut paraître plus simple, mais elle ne pourra utiliser aucun des charmes du jeu.",
+    "CupheadP2":"Pour ce DLC The Delicious Last Course, la nouvelle équipe de tasse embarque pour une nouvelle île. Accessible après avoir fait le premier niveau du jeu, cette île propose de nouveaux défis. Avec cinq nouveaux boss, plusieurs nouvelles armes, des défis et quelques surprises, ce DLC se termine relativement rapidement (entre deux et cinq heures suivant votre skill), mais impressionne par sa qualité.",
+    "CupheadP3":"Disclaimer: Ces paragraphes ont été pris du site web suivant 'https://jeu.video/action/cuphead/the-delicious-last-course-delice-dernier-plat', utilisé pour démontrer le site web.",
+
+    "F12022Difficulty":"3-4/5 - moyen-difficile",
+    "F12022tag":"Course,Sport,Multijoueur",
+    "F12022Price":"$79.99",
+    "F12022P1":"Avec F1 2022, nous ne pouvons pas dire que Codemasters aie lésiné sur les nouveautés, peut-être sous l’impulsion de son nouveau patron, Electronic Arts ? Quoiqu’il en soit, le soft s’enrichit de nouveaux véhicules, des GT en l’occurrence, qu’il est possible de piloter dans des défis dédiés; mais jamais dans le cadre de véritables courses à plusieurs. Outre ces voitures, les safety-cars officielles (Aston Martin et Mercedes) sont également au programme et jouables. Alors, tuons le suspense de suite car, si ces ajouts permettent de rallonger la durée de vie du soft (les défis sont parfois intéressants, mais pas toujours), le pilotage de ces GT s’avère rapidement ennuyeux. Car peu pointu (très typé arcade) et sans grande saveur. Même les sonorités des moteurs -qui paraissent un peu molles- ne suffisent pas à captiver. Reste, cependant, le plaisir de les collectionner dans son garage…",
+    "F12022P2":"Chose qui nous amène à la seconde grosse nouveauté de F1 2022, le mode “F1 Life”. Ici, c’est l’esprit “fashion” qui prédomine puisque vous avez la possibilité de façonner un petit appartement (showroom) en choisissant les peintures, le mobilier, la déco, etc. Mais aussi, d’acquérir des vêtements de marque et de revoir des ralentis où de consulter différentes informations sur les F1. Malheureusement, l’intérêt de ce dernier est très limité, si bien que vous vous en désintéresserez rapidement, passé l’attrait de la nouveauté…",
+    "F12022P3":"Disclaimer: Ces paragraphes ont été pris du site web suivant 'https://lemagsportauto.ouest-france.fr/jeux-video-test-de-f1-2022-le-plein-de-nouveautes-mais-la-panne-seche-de-plaisir/69572/', utilisé pour démontrer le site web.",
 
     "FAQWelcome1": "Premier nom"
 }

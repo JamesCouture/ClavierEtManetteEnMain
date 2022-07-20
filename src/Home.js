@@ -38,7 +38,7 @@ const Home = () => {
                         <div className="imageCenter">
                             <img src={imgDoom} alt="Doomhell Eternal" />
                         </div>
-                        <h4>{t('HomeDoom')}</h4>
+                        <Link to="/doom" style={{ color: "#5896C7" }}>{t('HomeDoom')}</Link>
                     </div>
                 </div>
             </div>
@@ -49,13 +49,13 @@ const Home = () => {
                         <div className="imageCenter">
                             <img src={imgCuphead} alt="Cuphead" />
                         </div>
-                        <h4>{t('HomeCuphead')}</h4>
+                        <Link to="/cuphead" style={{ color: "#5896C7" }}>{t('HomeCuphead')}</Link>
                     </div>
                     <div className="colR">
                         <div className="imageCenter">
                             <img src={imgF1} alt="F1 2022" />
                         </div>
-                        <h4>{t('HomeF1')}</h4>
+                        <Link to="/F12022" style={{ color: "#5896C7" }}>{t('HomeF1')}</Link>
                     </div>
                 </div>
             </div>
