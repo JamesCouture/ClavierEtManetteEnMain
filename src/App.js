@@ -11,6 +11,7 @@ import Doom from './Doom';
 import Cuphead from './Cuphead';
 import F12022 from './F12022'
 import CreateAccountSteps from './CreateAccountSteps';
+import Search from './Searchpage'
 import FAQ from './FAQ'
 import './i18n'
 import React, { FC, Suspense } from 'react';
@@ -37,6 +38,9 @@ function App() {
                     </Route>
                     <Route path="/forum">
                       <Forum />
+                    </Route>
+                    <Route path="/search">
+                      <Search />
                     </Route>
                     <Route path="/creeruncompteetape=1">
                       <CreateAccountSteps />
