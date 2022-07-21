@@ -18,8 +18,8 @@ const Navbar = () => {
             <div className="links">
                 <p style={{ display: 'flex', justifyContent: 'flex-end', marginBottom: '0 rem', paddingLeft: '0px', marginBlockEnd: '0em', paddingRight: '0px'}}>{accountUserName}</p>
                 <div style={{ paddingLeft: '10px', justifyContent: "right", display: "flex",}}>
-                    <div style={{borderStyle: 'solid',borderWidth: '1px',borderColor: '#447780',borderRadius: '5px',backgroundColor: '#ebfcff',height:'35px',fontSize:'25px'}}>
-                    <Link to="/search" type="submit" style={{ fontSize: '20px', height: '35px' }}>{t('SearchSerche')}</Link>
+                    <div>
+                    <Link to="/search" type="submit" style={{ fontSize: '20px', height: '25px',display: 'flex',justifyContent: 'center',alignItems: 'center',borderStyle: 'solid',borderWidth: '1px',borderColor: '#447780',borderRadius: '5px',backgroundColor: '#ebfcff',height:'35px'}}>{t('SearchSerche')}</Link>
                     </div>
                 </div>
                 {/* <Search /> */}

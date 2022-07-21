@@ -3,6 +3,7 @@ import { useState } from "react";
 import StepOne from "./Components/Forms/StepOne";
 import StepTwo from "./Components/Forms/StepTwo";
 import Final from "./Components/Forms/Final";
+import Accountcreatedmessage from './Accountcreatedmessage'
 
 function CreateAccountSteps() {
 
@@ -76,7 +77,8 @@ function CreateAccountSteps() {
           <Container>
             <Row>
               <Col md={{ span: 6, offset: 3 }} className="custom-margin">
-                <Final values={formData} />
+                <Accountcreatedmessage/>
+                {/* <Final values={formData} /> */}
               </Col>
             </Row>
           </Container>

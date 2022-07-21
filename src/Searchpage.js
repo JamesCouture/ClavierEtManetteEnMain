@@ -11,9 +11,9 @@ const Searchpage = () => {
 
     return (
         <div className="content" style={{ display: "flex", justifyContent: "center", alignItems: "center", flexDirection: "column" }}>
-            <input type="text" placeholder="Search..." onChange={event => { setSearchTerm(event.target.value) }} style={{ marginTop: "20px", width: "300px", height: "40px", fontSize: "25px", paddingLeft: "10px" }} />
+            <input type="text" placeholder={t('SearchSerche')} onChange={event => { setSearchTerm(event.target.value) }} style={{ marginTop: "20px", width: "300px", height: "40px", fontSize: "25px", paddingLeft: "10px" }} />
             {JSONDATA.filter((val) => {
-                if (searchTerm == "") {
+                if (searchTerm === "") {
                     return val
                 } else if (val.game_name.toLowerCase().includes(searchTerm.toLowerCase())) {
                     return val

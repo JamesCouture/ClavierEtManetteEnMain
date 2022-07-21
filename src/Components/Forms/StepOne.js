@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import { Form, Card, Button } from "react-bootstrap";
 import validator from "validator";
-import { useTranslation } from 'react-i18next'
+import { useTranslation } from 'react-i18next';
+import imgEtape from '../../images/etape1.png';
 
 
 // creating functional component ans getting props from app.js and destucturing them
@@ -28,7 +29,11 @@ const StepOne = ({ nextStep, handleFormData, values }) => {
 
   return (
     <div>
-      <Card style={{ marginTop: 100 }}>
+      <div className="content" style={{ textAlign: 'center', paddingTop: "50px" }}>
+        <h1>{t('CreateWelcome')}</h1>
+        <img src={imgEtape} alt="étape 1" style={{height:'200px'}}/>
+      </div>
+      <Card style={{ marginTop: '-60px' }}>
         <Card.Body>
           <Form onSubmit={submitFormData}>
             <Form.Group className="mb-3">

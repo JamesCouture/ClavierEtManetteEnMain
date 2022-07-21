@@ -38,7 +38,7 @@ p {
 }
 
 .content {
-  max-width: 800px;
+  max-width: 1000px;
   margin: 40px auto;
   padding: 20px;
 }
@@ -101,8 +101,8 @@ button {
 }
 
 .content img {
-  width: 300px;
-  height: 200;
+  width: 400px;
+  height: 250px;
 }
 
 .imageCenter {

@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { Form, Card, Button } from "react-bootstrap";
 import validator from "validator";
 import { useTranslation } from 'react-i18next'
+import imgEtape from '../../images/etape2.png';
 
 // creating functional component ans getting props from app.js and destucturing them
 const StepTwo = ({ nextStep, handleFormData, prevStep, values }) => {
@@ -24,74 +25,78 @@ const StepTwo = ({ nextStep, handleFormData, prevStep, values }) => {
 
   return (
     <>
-        <Card style={{ marginTop: 100 }}>
-          <Card.Body>
-            <Form onSubmit={submitFormData}>
-              <Form.Group className="mb-3">
-                <Form.Label>{t('CreateUsername')}</Form.Label>
-                <Form.Control
-                  style={{ border: error ? "2px solid red" : "" }}
-                  name="username"
-                  defaultValue={values.name}
-                  type="text"
-                  placeholder={t('CreateUsernameEx')}
-                  onChange={handleFormData("username")}
-                />
-                {error ? (
-                  <Form.Text style={{ color: "red" }}>
-                    {t('CreateRequired')}
-                  </Form.Text>
-                ) : (
-                  ""
-                )}
-              </Form.Group>
-              <Form.Group className="mb-3">
-                <Form.Label>{t('CreatePassword')}</Form.Label>
-                <Form.Control
-                  style={{ border: error ? "2px solid red" : "" }}
-                  name="password"
-                  defaultValue={values.name}
-                  type="text"
-                  placeholder={t('CreatePasswordEx')}
-                  onChange={handleFormData("password")}
-                />
-                {error ? (
-                  <Form.Text style={{ color: "red" }}>
-                    {t('CreateRequired')}
-                  </Form.Text>
-                ) : (
-                  ""
-                )}
-              </Form.Group>
+      <div className="content" style={{ textAlign: 'center', paddingTop: "50px" }}>
+        <h1>{t('CreateWelcome')}</h1>
+        <img src={imgEtape} alt="étape 2" style={{height:'200px'}}/>
+      </div>
+      <Card style={{ marginTop: '-60px'}}>
+        <Card.Body>
+          <Form onSubmit={submitFormData}>
+            <Form.Group className="mb-3">
+              <Form.Label>{t('CreateUsername')}</Form.Label>
+              <Form.Control
+                style={{ border: error ? "2px solid red" : "" }}
+                name="username"
+                defaultValue={values.name}
+                type="text"
+                placeholder={t('CreateUsernameEx')}
+                onChange={handleFormData("username")}
+              />
+              {error ? (
+                <Form.Text style={{ color: "red" }}>
+                  {t('CreateRequired')}
+                </Form.Text>
+              ) : (
+                ""
+              )}
+            </Form.Group>
+            <Form.Group className="mb-3">
+              <Form.Label>{t('CreatePassword')}</Form.Label>
+              <Form.Control
+                style={{ border: error ? "2px solid red" : "" }}
+                name="password"
+                defaultValue={values.name}
+                type="text"
+                placeholder={t('CreatePasswordEx')}
+                onChange={handleFormData("password")}
+              />
+              {error ? (
+                <Form.Text style={{ color: "red" }}>
+                  {t('CreateRequired')}
+                </Form.Text>
+              ) : (
+                ""
+              )}
+            </Form.Group>
 
-              <Form.Group className="mb-3">
-                <Form.Label>{t('CreateCourriel')}</Form.Label>
-                <Form.Control
-                  style={{ border: error ? "2px solid red" : "" }}
-                  type="email"
-                  placeholder={t('CreateCourrielEx')}
-                  onChange={handleFormData("email")}
-                />
-                {error ? (
-                  <Form.Text style={{ color: "red" }}>
-                    {t('CreateRequired')}
-                  </Form.Text>
-                ) : (
-                  ""
-                )}
-              </Form.Group>
-              <div style={{ display: "flex", justifyContent: "space-around" }}>
-                <Button variant="primary" onClick={prevStep}>
-                  {t('CreatePrevious')}
-                </Button>
+            <Form.Group className="mb-3">
+              <Form.Label>{t('CreateCourriel')}</Form.Label>
+              <Form.Control
+                style={{ border: error ? "2px solid red" : "" }}
+                type="email"
+                placeholder={t('CreateCourrielEx')}
+                onChange={handleFormData("email")}
+              />
+              {error ? (
+                <Form.Text style={{ color: "red" }}>
+                  {t('CreateRequired')}
+                </Form.Text>
+              ) : (
+                ""
+              )}
+            </Form.Group>
+            <div style={{ display: "flex", justifyContent: "space-around" }}>
+              <Button variant="primary" onClick={prevStep}>
+                {t('CreatePrevious')}
+              </Button>
 
-                <Button variant="primary" type="submit">
-                  {t('CreateSubmit')}
-                </Button>
-              </div>
-            </Form>
-          </Card.Body>
-        </Card>
+              <Button variant="primary" type="submit">
+                {t('CreateSubmit')}
+              </Button>
+            </div>
+          </Form>
+        </Card.Body>
+      </Card>
     </>
   );
 };

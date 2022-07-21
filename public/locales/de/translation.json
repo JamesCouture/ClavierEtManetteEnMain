@@ -8,7 +8,7 @@
 
     "//commentSearch": "Search page is here________________________________________________________________________________________",
     "SearchReserche": "Konversationssuche im Forum",
-    "SearchSerche": "Suchen",
+    "SearchSerche": "Finde ein Spiel",
     "placeHolderSearch":"Forum durchsuchen",
 
     "//commentHome": "Home page is here________________________________________________________________________________________",
@@ -42,9 +42,14 @@
     "CreateUsernameEx": "Benutzername (Bsp.: George123)",
     "CreateCourriel": "Email",
     "CreateCourrielEx": "E-Mail (Bsp.: George@gmail.com)",
+    "CreateWelcome":"Ein Konto erstellen",
 
     "//commentLogin": "Login page is here________________________________________________________________________________________",
+    "logWelcome":"Verbindet",
     "LogFirst": "Vorname",
+    "Logrentre":"Sie haben Ihr Konto eingegeben!",
+    "logRevenir":"Zurück zur Startseite",
+    "logSubmit":"Verbinden",
 
     "//commentFAQ": "FAQ page is here________________________________________________________________________________________",
     "FAQWelcome": "Hier ist die Seite mit den am häufigsten gestellten Fragen!",

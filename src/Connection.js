@@ -1,3 +1,4 @@
+import { Container, Row, Col } from "react-bootstrap";
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next'
 import { Form, Card, Button } from "react-bootstrap";
@@ -38,68 +39,79 @@ const Connection = () => {
     switch (step) {
         case 1:
             return (
+
                 <div className="Connection">
+                    <div className="content" style={{ textAlign: 'center', padding: "100px" }}>
+                        <h1>{t('logWelcome')}</h1>
+                    </div>
 
-                    <Card style={{ marginTop: 100 }}>
-                        <Card.Body>
-                            <Form onSubmit={submitFormData}>
-                                <Form.Group className="mb-3">
-                                    <Form.Label>{t('CreateUsername')}</Form.Label>
-                                    <Form.Control
-                                        style={{ border: error ? "2px solid red" : "" }}
-                                        name="usernameSignin"
-                                        id="usernameSignin"
-                                        defaultValue={accountUserName}
-                                        type="text"
-                                        placeholder={t('CreateUsernameEx')}
-                                    />
-                                    {error ? (
-                                        <Form.Text style={{ color: "red" }}>
-                                            {t('CreateRequired')}
-                                        </Form.Text>
-                                    ) : (
-                                        ""
-                                    )}
-                                </Form.Group>
-                                <Form.Group className="mb-3">
-                                    <Form.Label>{t('CreatePassword')}</Form.Label>
-                                    <Form.Control
-                                        style={{ border: error ? "2px solid red" : "" }}
-                                        name="passwordSignin"
-                                        id="passwordSignin"
-                                        defaultValue=""
-                                        type="text"
-                                        placeholder={t('CreatePasswordEx')}
-                                    />
-                                    {error ? (
-                                        <Form.Text style={{ color: "red" }}>
-                                            {t('CreateRequired')}
-                                        </Form.Text>
-                                    ) : (
-                                        ""
-                                    )}
+                    <Container>
+                        <Row>
+                            <Col md={{ span: 6, offset: 3 }} className="custom-margin">
 
-                                </Form.Group>
 
-                                <div style={{ display: "flex", justifyContent: "space-around" }}>
+                                <Card style={{ marginTop: '-60px' }}>
+                                    <Card.Body>
+                                        <Form onSubmit={submitFormData}>
+                                            <Form.Group className="mb-3">
+                                                <Form.Label>{t('CreateUsername')}</Form.Label>
+                                                <Form.Control
+                                                    style={{ border: error ? "2px solid red" : "" }}
+                                                    name="usernameSignin"
+                                                    id="usernameSignin"
+                                                    defaultValue={accountUserName}
+                                                    type="text"
+                                                    placeholder={t('CreateUsernameEx')}
+                                                />
+                                                {error ? (
+                                                    <Form.Text style={{ color: "red" }}>
+                                                        {t('CreateRequired')}
+                                                    </Form.Text>
+                                                ) : (
+                                                    ""
+                                                )}
+                                            </Form.Group>
+                                            <Form.Group className="mb-3">
+                                                <Form.Label>{t('CreatePassword')}</Form.Label>
+                                                <Form.Control
+                                                    style={{ border: error ? "2px solid red" : "" }}
+                                                    name="passwordSignin"
+                                                    id="passwordSignin"
+                                                    defaultValue=""
+                                                    type="text"
+                                                    placeholder={t('CreatePasswordEx')}
+                                                />
+                                                {error ? (
+                                                    <Form.Text style={{ color: "red" }}>
+                                                        {t('CreateRequired')}
+                                                    </Form.Text>
+                                                ) : (
+                                                    ""
+                                                )}
 
-                                    <Button variant="primary" type="submit">{t('CreateSubmit')}</Button>
-                                </div>
-                            </Form>
-                        </Card.Body>
-                    </Card>
+                                            </Form.Group>
 
+                                            <div style={{ display: "flex", justifyContent: "space-around" }}>
+
+                                                <Button variant="primary" type="submit">{t('logSubmit')}</Button>
+                                            </div>
+                                        </Form>
+                                    </Card.Body>
+                                </Card>
+                            </Col>
+                        </Row>
+                    </Container>
                 </div>
             );
         case 2:
             return (
                 <div className="accountcreated">
                     <div className="content" style={{ textAlign: 'center', paddingTop: "50px" }}>
-                        <h1>Vous êtes rentré dans votre compte!</h1>
+                        <h1>{t('Logrentre')}</h1>
                     </div>
                     <div className="content">
-                        <button style={{ dispplay: 'block', marginLeft: 'auto', marginRight: 'auto' }}>
-                            <Link to="/">Revenir à la page d'acceuil</Link>
+                        <button style={{ display: 'block', marginLeft: 'auto', marginRight: 'auto' }}>
+                            <Link to="/">{t('logRevenir')}</Link>
                         </button>
                     </div>
 

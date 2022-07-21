@@ -11,15 +11,15 @@ const FAQG = () => {
                 <h3>{t('FAQMessage')}</h3>
             </div>
             <div className="spacingTop">
-                <h3>{t('FAQQ1')}</h3>
+                <h3 style={{color:"#5896C7"}}>{t('FAQQ1')}</h3>
                 <p>{t('FAQR1')}</p>
             </div>
             <div className="spacingTop">
-                <h3>{t('FAQQ2')}</h3>
+                <h3 style={{color:"#5896C7"}}>{t('FAQQ2')}</h3>
                 <p>{t('FAQR2')}</p>
             </div>
             <div className="spacingTop">
-                <h3>{t('FAQQ3')}</h3>
+                <h3 style={{color:"#5896C7"}}>{t('FAQQ3')}</h3>
                 <p>{t('FAQR3')}</p>
             </div>
         </div>
